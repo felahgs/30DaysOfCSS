@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  font-family: verdana;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 15rem;
+
+  border-radius: 100%;
+  border: 3px solid rgba(51, 51, 51, 0.062);
+
+  font-size: 2rem;
+
+}
+
+.animated-ring {
+  position: absolute;
+  height: 15rem;
+  width: 15rem;
+
+  border-radius: 100%;
+  box-shadow: 0 4px 0 #262626;
+
+  background: transparent;
+  
+  animation: rotate 1s linear infinite;
+}
+
+.loader p {
+  font-weight: 500;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+.loader p {
+  text-transform: uppercase;
+}
