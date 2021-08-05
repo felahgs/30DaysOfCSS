@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+
+  background-color: #353b48;
+}
+
+.pulse-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  height: 130px;
+  width: 130px;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  color: #fff;
+  background-color: #1C857D;
+  border: 1px solid #1C857D;
+  border-radius: 50%;
+}
+
+.text {
+  position: absolute;
+}
+
+.wave {
+  display: inline-block;
+  position: absolute;
+
+  height: 130px;
+  width: 130px;
+
+  background-color: #1C857D;
+  border-radius: 50%;
+
+  animation: pulseEffect 4s ease 0s infinite;
+}
+
+@keyframes pulseEffect {
+  0% { 
+    transform:scale(1);
+    opacity: 1; 
+  }
+  50% { 
+    transform: scale(2);
+    opacity: 0;
+  }
+  51% { 
+    transform:scale(1);
+    opacity: 0; 
+  }
+  52% { 
+    transform:scale(1);
+    opacity: 1; 
+  }
+  100% { 
+    transform:scale(1.5);
+    opacity: 0; 
+  }
+}
