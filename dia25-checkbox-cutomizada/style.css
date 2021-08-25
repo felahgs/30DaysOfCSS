@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+
+  background-color: #0B1431;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+
+  font-size: 4rem;
+
+  color: #fff;
+}
+
+label {
+  cursor: pointer;
+  position: relative;
+}
+
+input {
+  position: absolute;
+  left: 0;
+
+  cursor: pointer;
+
+  opacity: 0;
+}
+
+input:checked ~ i {
+  animation: colorTranslation 5s linear infinite;
+}
+
+label:nth-child(1) input:checked ~ i {
+  color: yellow;
+}
+label:nth-child(2) input:checked ~ i {
+  color: #003087;
+}
+label:nth-child(3) input:checked ~ i {
+  color: #107C10;
+}
+label:nth-child(4) input:checked ~ i {
+  color: #003087;
+}
+label:nth-child(5) input:checked ~ i {
+  color: #DF0000;
+}
+
+
+@keyframes colorTranslation {
+  0% { 
+    filter: hue-rotate(0deg);
+  }
+  40% { 
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
