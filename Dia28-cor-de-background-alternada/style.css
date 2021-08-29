@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+
+  background-color: #fff;
+  animation: background 15s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  font-size:8rem;
+  
+  color: #fff;
+}
+
+@keyframes background {
+  0% { background-color: gray}
+  25% { background-color: lightblue}
+  50% { background-color: lightgreen}
+  75% { background-color: black}
+  100% { background-color: blue}
+}
