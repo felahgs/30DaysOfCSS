@@ -22,7 +22,6 @@ body {
   background-color: white;
 
   animation: rotate 2s linear infinite;
-  /* animation-delay: -1s */
 }
 
 .trident-gum:nth-child(1) {

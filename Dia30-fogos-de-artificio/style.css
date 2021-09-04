@@ -1,6 +1,4 @@
 body {
-  /* height: 100vh; */
-
   padding: 0;
   margin: 0;
   font-family: sans-serif;
@@ -20,10 +18,7 @@ body {
   height: 60px;
   width: 5px;
   
-  /* background-color: yellow; */
   transform-origin: 50% 100%;
-
-  /* animation: sparkleAnimation 3s linear infinite; */
 }
 
 .sparkle:after {
@@ -141,15 +136,12 @@ body {
 
 @keyframes sparkleAnimation {
   0% {
-    /* height: 0px; */
-    /* height: 40px; */
     opacity: 0;
     transform: translateY(-15px);
   }
   15% {
     opacity: 1;
     height: 40px;
-    /* transform: translateY(-75px); */
   }
   33%{
     height: 0px;

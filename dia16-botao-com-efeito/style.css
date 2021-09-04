@@ -49,6 +49,5 @@ body {
 
 .btn-animated:hover::after {
   top: 0;
-  /* height: 100%; */
 }
 

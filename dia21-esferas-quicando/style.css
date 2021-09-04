@@ -59,11 +59,6 @@ span:nth-child(5) {
   
 }
 
-/* @keyframes bounce {
-  from { transform: translateY(0px) };
-  to { transform: translateY(200px) };
-}; */
-
 @keyframes bounce
 {
     0%

@@ -15,7 +15,6 @@ body {
 .pendulum {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 
   height: 300px;
 }

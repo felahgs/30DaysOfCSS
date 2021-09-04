@@ -24,7 +24,6 @@ h1 {
   color: transparent;
 
   background-image: url("image.jpeg");
-  /* background-position: center; */
   background-clip: text;
   background-repeat:repeat-x;
   -webkit-background-clip: text;
