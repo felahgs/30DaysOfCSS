@@ -1,11 +1,12 @@
 # 30DaysOfCSS
 
-<h1 align="center">
-  <img src=".github/app-logo.png" />
-</h1>
 
 ## 🔎️ Description
 
-30DaysOfCSS is a challenge with the objective to practice HTML and CSS skills by performing a proposed challenge each day.
-The challenge can be checked on **<a href="https://github.com/MilenaCarecho/30diasDeCSS" target="__blank"> and was made by Milena Carecho</a>** to face this challenge. Check out her work!
+<a href="https://github.com/MilenaCarecho/30diasDeCSS" target="__blank"> 30DaysOfCSS</a> is a challenge with the objective to practice HTML and CSS skills by implementing a proposed style each day.
+
+---
+
+The challenge was created by **<a href="https://github.com/MilenaCarecho" target="__blank"> Milena Carecho</a>** and can be checked on her **<a href="https://github.com/MilenaCarecho/30diasDeCSS" target="__blank"> github page</a>**. Check out her work and try it yourself 😃!
+
 
