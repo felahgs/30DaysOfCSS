@@ -1,12 +1,12 @@
 # 30DaysOfCSS
 
+## 📝 Description
+**30DaysOfCSS** is a coding challenge to enhance your HTML and CSS skills by creating new CSS effects or styles each day. The project helps you build proficiency in CSS animations, transitions, layouts, and more.
 
-## 🔎️ Description
+## 📅 Challenge Overview
+- **Duration**: 30 days of daily CSS challenges
+- **Goal**: Implement a new design or effect based on daily prompts
+- **Skills Covered**: CSS animations, effects, transitions, flexbox, grid, and more
 
-<a href="https://github.com/MilenaCarecho/30diasDeCSS" target="__blank"> 30DaysOfCSS</a> is a challenge with the objective to practice HTML and CSS skills by implementing a proposed style each day.
-
----
-
-The challenge was created by **<a href="https://github.com/MilenaCarecho" target="__blank"> Milena Carecho</a>** and can be checked on her **<a href="https://github.com/MilenaCarecho/30diasDeCSS" target="__blank"> github page</a>**. Check out her work and try it yourself 😃!
-
-
+## 🔗 Resources
+This challenge was created by **Milena Carecho**. You can explore more [here](https://github.com/MilenaCarecho).
