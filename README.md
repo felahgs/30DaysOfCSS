@@ -2,6 +2,7 @@
 
 ## 📝 Description
 **30DaysOfCSS** is a coding challenge to enhance your HTML and CSS skills by creating new CSS effects or styles each day. The project helps you build proficiency in CSS animations, transitions, layouts, and more.
+Each challenge can be accessed on https://felahgs.github.io/30DaysOfCSS.
 
 ## 📅 Challenge Overview
 - **Duration**: 30 days of daily CSS challenges
